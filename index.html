@@ -18,18 +18,21 @@ and open the template in the editor.
 function modelo() { 
 
 var modelo= prompt("diga modelo de su computadora", "");
-alert("el modelo de su computadora es"+modelo);
+alert("el modelo de su computadora es "+modelo);
 }
 function marca() { 
 
 var marca = prompt("marca de su computadora", "");
-alert("la marca de su computadora es"+marca);
-}
-function lugardefabricacion() {
-    
+var color = prompt("color de su computadora", "");
+alert("la marca y color de su computadora es "+marca+" "+color);
 
-var ldf= prompt("lugar de fabricacion de su computadora","");
-alert("el lugar de fabricacion de su computadora es"+ldf);
+}
+function lugardefabricacion(){
+var ldf= prompt("lugar de fabricacion de su computadora", "");
+var costo= prompt("costo de su computadora", "");   
+
+var tamano= prompt("tamano de su computadora", "");
+alert("el lugar de fabricacion costo y tamano de su computadora es "+ldf+" "+costo+" "+tamano);
 }
 </script>
 <button type="button" value="modelo" onclick="modelo()">presione para saber modelo de su computadora</button>
